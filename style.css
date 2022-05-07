@@ -1,0 +1,42 @@
+/* no scrollbars */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.style36 {
+	color: #999999;
+	font-size: 12px;
+}
+/* no drag images */
+img { 
+  -webkit-user-drag: none; 
+  -khtml-user-drag: none; 
+  -moz-user-drag: none; 
+  -o-user-drag: none; 
+  user-drag: none; 
+}
+/* full size page */
+body {
+	margin: 0em;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	height: 1440px;
+	overflow: scroll;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.pf {
+	padding: 0em;
+	background-color: #2974bc;
+	color: #555;
+	border: 0px solid #555;
+}
+
+.pf:hover {
+	border-color: skyblue;
+}
